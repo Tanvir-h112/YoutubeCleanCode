@@ -36,8 +36,6 @@ const PlayerPage = ({playlists})=> {
   const current = playlists[playlistId]
   console.log('Current course', current)
 
-  if(!current) return;
-
   return (
     <Container maxWidth={'lg'} sx={{ my: 16}}>
      <Typography variant='h2' align='center'>
